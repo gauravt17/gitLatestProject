@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.crm.qa.base.TestBase;
 
+import io.qameta.allure.Step;
+
 public class HomePage extends TestBase{
 	public HomePage()
 	{
@@ -29,18 +31,21 @@ public class HomePage extends TestBase{
 	@FindBy(linkText="Contacts")
 	WebElement contactsLink;
 	
+	@Step("Getting login page title...")
 	public String verifyHomePageTitle()
 	{
 		return driver.getTitle();
 	}
 	
-	public void hoveringOnLinkBar()
+	@Step("Hovering On Link Bar {0}")
+	public void hoveringOnLinkBar(String checking)
 	{
 		Actions action = new Actions(driver);
 		action.moveToElement(linkBar).build().perform();;
 		
 	}
 	
+	@Step("Getting username text...")
 	public String getUsernameText()
 	{
 		return usernameText.getText();
