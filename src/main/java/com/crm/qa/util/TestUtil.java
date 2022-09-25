@@ -32,7 +32,6 @@ public class TestUtil extends TestBase {
 			{
 				for(int j = 0 ; j < desiredSheet.getRow(0).getLastCellNum() ; j++ )
 				{
-					
 					data[i-1][j] = desiredSheet.getRow(i).getCell(j).getStringCellValue();
 				}
 			}
