@@ -1,7 +1,5 @@
 package com.qa.ExtentReportListener;
 
-import java.io.File;
-
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -21,11 +19,19 @@ public class ListenerAllure implements ITestListener{
 	}
 	@Override
 	public void onTestFailure(ITestResult result) {
-		WebDriver driver = TestBase.getDriver();
-		saveScreenshot(driver);
+		WebDriver driver;
+		try {
+			driver = (WebDriver)result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
+			saveScreenshot(driver);
+		} catch (Throwable e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 
+		}
+		
 		
 	  }
 
 	
 
-}
+

@@ -1,12 +1,13 @@
 C:\SeleniumWorkspace\NaveenPOM\src\main\java\com\crm\qa\pages\LoginPage.java
 C:\SeleniumWorkspace\NaveenPOM\src\main\java\com\crm\qa\pages\ContactsPage.java
 C:\SeleniumWorkspace\NaveenPOM\src\main\java\com\crm\qa\pages\HomePage.java
-C:\SeleniumWorkspace\NaveenPOM\src\main\java\com\qa\ExtentReportListener\ExtentReporterNG.java
-C:\SeleniumWorkspace\NaveenPOM\src\main\java\com\crm\qa\util\TestUtil.java
-C:\SeleniumWorkspace\NaveenPOM\src\main\java\com\crm\qa\base\TestBase.java
 C:\SeleniumWorkspace\NaveenPOM\src\main\java\com\crm\qa\pages\DealsPage.java
-C:\SeleniumWorkspace\NaveenPOM\src\main\java\com\crm\qa\pages\SignUpPage.java
 C:\SeleniumWorkspace\NaveenPOM\src\main\java\com\crm\qa\pages\LandingPage.java
 C:\SeleniumWorkspace\NaveenPOM\src\main\java\com\crm\qa\pages\TasksPage.java
+C:\SeleniumWorkspace\NaveenPOM\src\main\java\com\qa\ExtentReportListener\ExtentReporterNG.java
+C:\SeleniumWorkspace\NaveenPOM\src\main\java\com\crm\qa\util\TestUtil.java
+C:\SeleniumWorkspace\NaveenPOM\src\main\java\com\qa\ExtentReportListener\ListenerAllure.java
+C:\SeleniumWorkspace\NaveenPOM\src\main\java\com\crm\qa\base\TestBase.java
+C:\SeleniumWorkspace\NaveenPOM\src\main\java\com\crm\qa\pages\SignUpPage.java
 C:\SeleniumWorkspace\NaveenPOM\src\main\java\com\crm\qa\util\Retry.java
 C:\SeleniumWorkspace\NaveenPOM\src\main\java\com\crm\qa\util\ListenerForRetry.java

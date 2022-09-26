@@ -81,7 +81,7 @@ public class HomePageTestcases extends TestBase{
 	@Test
 	public void failing()
 	{
-		
+		Assert.assertTrue(false);
 	}
 	
 
